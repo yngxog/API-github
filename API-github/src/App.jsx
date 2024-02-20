@@ -72,17 +72,17 @@ target="_blank" rel="noreferrer">
             	<p>Nome de usuário: {userData.login}</p>
           </a>
           <a 
-href={`https://github.com/${userData.login}tab=repositories`} 
+href={`https://github.com/${userData.login}?tab=repositories`} 
 target="_blank" rel="noreferrer">
             		<p>Repositórios públicos: {userData.login}</p>
           </a>
           <a 
-href={`https://github.com/${userData.login}tab=followers`} 
+href={`https://github.com/${userData.login}?tab=followers`} 
 target="_blank" rel="noreferrer">
             			<p>Seguidores: {userData.followers}</p>
           </a>
           <a 
-href={`https://github.com/${userData.login}tab=following`} 
+href={`https://github.com/${userData.login}?tab=following`} 
 target="_blank" rel="noreferrer">
             	<p>Seguindo: {userData.following}</p>
           </a>    	
